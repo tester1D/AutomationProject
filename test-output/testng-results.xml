@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-27T23:34:44Z" name="Sun and Sand Sports Mobile Automation Test Suite" finished-at="2021-06-27T23:35:53Z" duration-ms="68838">
+    <groups>
+    </groups>
+    <test started-at="2021-06-27T23:34:44Z" name="Mobile Automation- Emulator" finished-at="2021-06-27T23:35:53Z" duration-ms="68838">
+      <class name="testPackage.SunAndSandSports_MobileTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:34:44Z" name="StartReport" finished-at="2021-06-28T03:34:44Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="SetDesiredCapabilities()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:34:44Z" name="SetDesiredCapabilities" finished-at="2021-06-28T03:34:59Z" duration-ms="15112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDesiredCapabilities -->
+        <test-method signature="ValidLogin(java.lang.String, java.lang.String)[pri:1, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:34:59Z" name="ValidLogin" finished-at="2021-06-28T03:35:08Z" duration-ms="8894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:08Z" name="TearDown" finished-at="2021-06-28T03:35:09Z" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetDesiredCapabilities()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:09Z" name="SetDesiredCapabilities" finished-at="2021-06-28T03:35:21Z" duration-ms="12394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDesiredCapabilities -->
+        <test-method signature="InvalidLogin(java.lang.String, java.lang.String)[pri:2, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:21Z" name="InvalidLogin" finished-at="2021-06-28T03:35:29Z" duration-ms="8152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:29Z" name="TearDown" finished-at="2021-06-28T03:35:30Z" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetDesiredCapabilities()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:30Z" name="SetDesiredCapabilities" finished-at="2021-06-28T03:35:43Z" duration-ms="12406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDesiredCapabilities -->
+        <test-method signature="VerifyAddToCartButtonFunctionality(java.lang.String, java.lang.String)[pri:3, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:43Z" name="VerifyAddToCartButtonFunctionality" finished-at="2021-06-28T03:35:52Z" duration-ms="9384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartButtonFunctionality -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:52Z" name="TearDown" finished-at="2021-06-28T03:35:53Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="cleanReport()[pri:0, instance:testPackage.SunAndSandSports_MobileTest@757acd7b]" started-at="2021-06-28T03:35:53Z" name="cleanReport" finished-at="2021-06-28T03:35:53Z" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanReport -->
+      </class> <!-- testPackage.SunAndSandSports_MobileTest -->
+    </test> <!-- Mobile Automation- Emulator -->
+  </suite> <!-- Sun and Sand Sports Mobile Automation Test Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testPackage.SunAndSandSports_MobileTest">
+        <methods>
+          <include name="SetDesiredCapabilities"/>
+          <include name="TearDown"/>
+          <include name="VerifyAddToCartButtonFunctionality"/>
+          <include name="InvalidLogin"/>
+          <include name="StartReport"/>
+          <include name="cleanReport"/>
+          <include name="ValidLogin"/>
+        </methods>
+      </class> <!-- testPackage.SunAndSandSports_MobileTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Sun and Sand Sports Mobile Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="Mobile Automation- Emulator(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="invalidUsername" value="invalidusername"/>
+    <parameter name="invalidPassword" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="testPackage.SunAndSandSports_MobileTest">
+        <methods>
+          <include name="SetDesiredCapabilities"/>
+          <include name="TearDown"/>
+          <include name="VerifyAddToCartButtonFunctionality" invocation-numbers="0"/>
+          <include name="StartReport"/>
+          <include name="cleanReport"/>
+        </methods>
+      </class> <!-- testPackage.SunAndSandSports_MobileTest -->
+    </classes>
+  </test> <!-- Mobile Automation- Emulator(failed) -->
+</suite> <!-- Failed suite [Sun and Sand Sports Mobile Automation Test Suite] -->

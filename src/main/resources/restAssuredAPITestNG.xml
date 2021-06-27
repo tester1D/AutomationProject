@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Automation-" parallel="false">
+	<test name="API Automation">
+	    <parameter name="url" value="https://gorest.co.in/public-api/posts" />
+	    <parameter name="expStatusCode" value="200" />
+		<parameter name="expectedContentType" value="application/json; charset=utf-8" />
+		<parameter name="expectedServerName" value="nginx" />
+		<parameter name="expectedContentEncoding" value="gzip" />
+		<parameter name="expectedTransferEncoding" value="chunked" />
+		<parameter name="expectedProtectionType" value="1; mode=block" />
+		<parameter name="expectedReferrerPolicy" value="strict-origin-when-cross-origin" />
+		<classes>
+			<class name="testPackage.APITest" />
+		</classes>
+	</test>
+</suite>

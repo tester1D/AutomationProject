@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [API Automation-]" guice-stage="DEVELOPMENT">
+  <test name="API Automation(failed)">
+    <parameter name="expectedContentType" value="application/json; charset=utf-8"/>
+    <parameter name="expectedReferrerPolicy" value="strict-origin-when-cross-origin"/>
+    <parameter name="expectedTransferEncoding" value="chunked"/>
+    <parameter name="expStatusCode" value="200"/>
+    <parameter name="expectedProtectionType" value="1; mode=block"/>
+    <parameter name="url" value="https://gorest.co.in/public-api/posts"/>
+    <parameter name="expectedServerName" value="nginx"/>
+    <parameter name="expectedContentEncoding" value="gzip"/>
+    <classes>
+      <class name="testPackage.APITest">
+        <methods>
+          <include name="cleanReport"/>
+          <include name="validateUserIDInResponse" invocation-numbers="0"/>
+          <include name="StartReport"/>
+        </methods>
+      </class> <!-- testPackage.APITest -->
+    </classes>
+  </test> <!-- API Automation(failed) -->
+</suite> <!-- Failed suite [API Automation-] -->

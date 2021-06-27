@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [BrowserStack Test automtion regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test name="BrowserStack Test - FF(failed)" verbose="3">
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="browser_version" value="80.0"/>
+    <classes>
+      <class name="TestPackage.YourLogo_WebAppTest">
+        <methods>
+          <include name="logout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestPackage.YourLogo_WebAppTest -->
+    </classes>
+  </test> <!-- BrowserStack Test - FF(failed) -->
+  <test name="BrowserStack Test - Chrome(failed)" verbose="3">
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Catalina"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="85.0"/>
+    <classes>
+      <class name="TestPackage.YourLogo_WebAppTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestPackage.YourLogo_WebAppTest -->
+    </classes>
+  </test> <!-- BrowserStack Test - Chrome(failed) -->
+</suite> <!-- Failed suite [BrowserStack Test automtion regression suite] -->

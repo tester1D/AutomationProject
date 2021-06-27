@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Test automtion regression suite]" guice-stage="DEVELOPMENT">
+  <test name="Web Test - Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="category" value="Men"/>
+    <classes>
+      <class name="TestPackage.webTestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyAddToCartFunctionality" invocation-numbers="0"/>
+          <include name="verifyAvailabilityOfITem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestPackage.webTestClass -->
+    </classes>
+  </test> <!-- Web Test - Chrome(failed) -->
+</suite> <!-- Failed suite [Test automtion regression suite] -->

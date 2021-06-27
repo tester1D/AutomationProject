@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sun and Sand Sports Automation Test Suite"
+	parallel="false">
+	<test name="launchBrowser - Chrome">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="productSize" value="EU 40.5" />
+		<parameter name="category" value="Men" />
+		<parameter name="contactNumber" value="122345445" />
+		<parameter name="title" value="Mrs" />
+		<parameter name="firstName" value="Test" />
+		<parameter name="lastName" value="Data" />
+		<parameter name="region" value="Dubai" />
+		<parameter name="addressLine" value="Discivery" />
+		<classes>
+			<class name="testPackage.SunAndSandSports_WebTest" />
+		</classes>
+	</test>
+	
+	
+</suite>

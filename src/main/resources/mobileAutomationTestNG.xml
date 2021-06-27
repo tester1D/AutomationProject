@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sun and Sand Sports Mobile Automation Test Suite"
+	parallel="false">
+		<test name="Mobile Automation- Emulator">
+		<parameter name="username" value="standard_user" />
+		<parameter name="password" value="secret_sauce" />
+		<parameter name="invalidUsername" value="invalidusername" />
+		<parameter name="invalidPassword" value="secret_sauce" />
+		<classes>
+			<class name="testPackage.SunAndSandSports_MobileTest" />
+		</classes>
+		</test>	
+</suite>
